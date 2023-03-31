@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html eng="en">
+<head>
+    <meta chanset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>LADING PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        s<ul class="nav nav-tabs" row="tablelist">
+            <li class="nav-items">
+                <a id="M-tab" class="nav-link active" data-toggle="tab" role="tab" href="#M">Mission</a>
+            </li>
+            <li class="nav-items">
+                <a id="V-tab" class="nav-link active" data-toggle="tab" role="tab" href="#V">Vission</a>
+            </li>
+            <li class="nav-items">
+                <a id="C-tab" class="nav-link active" data-toggle="tab" role="tab" href="#C">Clubs</a>
+            </li>
+            <li class="nav-items">
+                <a id="E-tab" class="nav-link active" data-toggle="tab" role="tab" href="#E">Events</a>
+            </li>
+            <li class="nav-items">
+                <a id="Me-tab" class="nav-link active" data-toggle="tab" role="tab" href="#Me">Membership Info</a>
+            </li>
+        </ul>
+            <div class="tab-content" style="padding: 20px; display: flex;">
+                <div id="M" aria-labelledby="M-tab" clas="tab-panel show active" role="tabpanel" aria-controls="M" aria-selected="true"      </div>
+
+                <div id="V" aria-labelledby="V-tab" class="tab-panel show active" role="tabpanel" aria-controls="V" aria-selected="false">Vission</div>
+                <div id="C" aria-labelledby="C-tab" class="tab-panel show active" role="tabpanel" aria-controls="C" aria-selected="false">Clubs</div>
+                <div id="E" aria-labelledby="E-tab" class="tab-panel show active" role="tabpanel" aria-controls="E" aria-selected="false">Events</div>
+                <div id="Me" aria-labelledby="Me-tab" class="tab-panel show active" role="tabpanel" aria-controls="Me" aria-selected="false">Membership Info</div>
+            </div>

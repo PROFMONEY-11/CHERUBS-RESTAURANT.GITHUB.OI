@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background: #fec107;
+    text-align: justify;
+    padding:0 10px;
+}
+ .wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+ .wrapper .tittle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+}
+wrapper .form{
+    width: 100%;
+}
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+ }
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .input,
+.wrapper .form .input_field .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.wrapper .form .input_field .textarea{
+    resize: none;
+    height: 125px;
+}
+.wrapper .form .input_field .custom_select{
+    position: relative;
+    width: 100px;
+    height: 37px;
+}
+
+.wrapper .form .input_field .custom_select select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #d5dbd9;
+    width: 100p%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+}
+.wrapper .form .input_field .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+pointer-events: none;
+}
+.wrapper .form .input_field .input:focus,
+    .wrapper .form .input_field .textarea:focus
+    .wrapper .form .input_field select:focus{
+    border: 1px solid #fec107;
+}
+.wrapper .form .input_field .p{
+    font-size: 14px;
+    color: #757575;
+}
+#login-form{
+    display: none;
+}
+.form-box
+{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}    
